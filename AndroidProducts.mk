@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_rhode.mk
+    $(LOCAL_DIR)/octavi_rhode.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_rhode-user \
-    spark_rhode-userdebug \
-    spark_rhode-eng
+    octavi_rhode-user \
+    octavi_rhode-userdebug \
+    octavi_rhode-eng
