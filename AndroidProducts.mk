@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_rhode.mk
+    $(LOCAL_DIR)/octavi_rhode.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_rhode-user \
-    awaken_rhode-userdebug \
-    awaken_rhode-eng
+    octavi_rhode-user \
+    octavi_rhode-userdebug \
+    octavi_rhode-eng
