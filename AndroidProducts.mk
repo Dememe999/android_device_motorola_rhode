@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_rhode.mk
+    $(LOCAL_DIR)/blaze_rhode.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_rhode-user \
-    octavi_rhode-userdebug \
-    octavi_rhode-eng
+    blaze_rhode-user \
+    blaze_rhode-userdebug \
+    blaze_rhode-eng
