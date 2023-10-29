@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xdroid_rhode.mk
+    $(LOCAL_DIR)/xd_rhode.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_rhode-user \
-    xdroid_rhode-userdebug \
-    xdroid_rhode-eng
+    xd_rhode-user \
+    xd_rhode-userdebug \
+    xd_rhode-eng
