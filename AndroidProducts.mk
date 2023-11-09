@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/catalyst_rhode.mk
+    $(LOCAL_DIR)/awaken_rhode.mk
 
 COMMON_LUNCH_CHOICES := \
-    catalyst_rhode-user \
-    catalyst_rhode-userdebug \
-    catalyst_rhode-eng
+    awaken_rhode-user \
+    awaken_rhode-userdebug \
+    awaken_rhode-eng
