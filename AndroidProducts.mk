@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_rhode.mk
+    $(LOCAL_DIR)/pixys_rhode.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_rhode-user \
-    awaken_rhode-userdebug \
-    awaken_rhode-eng
+    pixys_rhode-user \
+    pixys_rhode-userdebug \
+    pixys_rhode-eng
