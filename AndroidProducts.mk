@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_rhode.mk
+    $(LOCAL_DIR)/blaze_rhode.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_rhode-user \
-    pixys_rhode-userdebug \
-    pixys_rhode-eng
+    blaze_rhode-user \
+    blaze_rhode-userdebug \
+    blaze_rhode-eng
