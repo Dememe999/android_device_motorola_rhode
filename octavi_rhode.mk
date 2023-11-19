@@ -12,13 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/rhode/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/blaze/config/common.mk)
+$(call inherit-product, vendor/suoerior/config/common.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := blaze_rhode
+PRODUCT_NAME := superior_rhode
 PRODUCT_DEVICE := rhode
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g52
