@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_rhode.mk
+    $(LOCAL_DIR)/superior_rhode.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_rhode-user \
-    blaze_rhode-userdebug \
-    blaze_rhode-eng
+    superior_rhode-user \
+    superior_rhode-userdebug \
+    supeior_rhode-eng
