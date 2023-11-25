@@ -10,4 +10,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     superior_rhode-user \
     superior_rhode-userdebug \
-    supeior_rhode-eng
+    superior_rhode-eng
