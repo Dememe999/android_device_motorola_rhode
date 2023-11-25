@@ -11,11 +11,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device
 $(call inherit-product, device/motorola/rhode/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/suoerior/config/common.mk)
+# Inherit some common SuperiorOS stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
+DEVICE_MAINTAINERS := "elkusanagi"
+
+# Additional stuff for this product.
+TARGET_INCLUDE_PIXEL_CHARGER := true
+SUPERIOR_UDFPS_ANIMATIONS := true
+USE_AOSP_DIALER := true
+TARGET_GAPPS_ARCH := arm64
+USE_DOTGALLERY := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := superior_rhode
